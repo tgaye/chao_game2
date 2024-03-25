@@ -477,6 +477,7 @@ init: function() {
 },
 
 preload: function() {
+  game.load.crossOrigin = 'anonymous';
   this.game.load.atlasJSONHash('pet', 'assets/images/pet0.png', 'assets/data/pet.json');
 },
 
